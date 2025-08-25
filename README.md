@@ -1,50 +1,70 @@
-# Welcome to your Expo app 👋
+📋 Task Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple Task Manager app built with React Native (Expo, TypeScript, and TailwindCSS).
+This app allows users to add tasks, add descriptions, mark tasks as complete, and delete them. It also provides visual feedback for user interactions.
 
-## Get started
+🚀 Features
 
-1. Install dependencies
+Add Task: Create a new task with a title and description.
 
-   ```bash
-   npm install
-   ```
+Mark as Complete: Tap a task to mark it as completed (strikethrough + gray color).
 
-2. Start the app
+Delete Task: Remove tasks instantly.
 
-   ```bash
-   npx expo start
-   ```
+Task List View: Displays all tasks in a scrollable list.
 
-In the output, you'll find options to open the app in a
+Visual Feedback: Animations and color changes for actions (complete/delete).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+⚙️ Setup & Installation
+1. Clone the repository
+git clone https://github.com/Es3333/Task-manger.git
+cd task-manager
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2. Install dependencies
 
-## Get a fresh project
+Make sure you have Node.js and Expo CLI installed.
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+cd my-app
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+npm install
 
-## Learn more
+3. Start the app
+npx expo start
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This will open the Expo developer tools in your browser.
+Scan the QR code with the Expo Go app (available on iOS & Android) to run it on your device.
 
-## Join the community
+📱 Usage Instructions
 
-Join our community of developers creating universal apps.
+Enter a task title in the input box.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Optionally add a description.
+
+Press the ➕ button to add the task.
+
+Tap a task to mark it complete (line-through style).
+
+Tap ❌ to delete a task.
+
+📦 Third-Party Libraries Used
+
+Expo
+ → Easiest way to run React Native apps without manual setup.
+
+React Native
+ → Framework for building native mobile apps using React.
+
+TypeScript
+ → Provides static typing for better code maintainability.
+
+NativeWind
+ → TailwindCSS for styling React Native components.
+
+React Native Gesture Handler
+ → Enables smooth touch gestures (used internally by Expo & animations).
+
+👨‍💻 Author
+
+Developed by Eslam Khaled
